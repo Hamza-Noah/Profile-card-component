@@ -52,6 +52,7 @@ body::after {
 main {
   position: relative;
   border-radius: 20px;
+  box-shadow: 2px 2px hsl(227, 10%, 46%)
 }
 
 .banner img {
@@ -79,6 +80,7 @@ main {
 h1 {
   margin-top: 50px;
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 h1 span {
@@ -86,10 +88,14 @@ h1 span {
   font-weight: 400;
 }
 
+.user p {
+  color: var(--Dark-gray);
+}
+
 .statistics {
   display: flex;
   justify-content: space-evenly;
-  border-top: solid 0.3px gray;
+  border-top: solid 0.5px #8080803b;
   margin-top: 30px;
   padding: 20px 0;
   text-align: center;
@@ -101,7 +107,7 @@ h1 span {
 
 .stat span {
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
