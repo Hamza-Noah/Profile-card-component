@@ -65,7 +65,7 @@ main {
 .avatar {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -45%);
 }
 
 .avatar img {
@@ -80,7 +80,8 @@ main {
 }
 
 h1 {
-  margin-top: 60px;
+  margin-top: 70px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 1rem;
 }
@@ -103,15 +104,16 @@ h1 span {
   text-align: center;
 }
 
-.stat p {
-  margin-top: 10px;
-  color: gray;
-}
 
 .stat span {
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
+.stat p {
+  margin-top: 10px;
+  color: gray;
+  font-size: .8rem;
+}
 
 
