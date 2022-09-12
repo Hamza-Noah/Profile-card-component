@@ -53,7 +53,7 @@ main {
   position: relative;
   width: 375px;
   border-radius: 20px;
-  box-shadow: 2px 2px hsl(227, 10%, 46%);
+  box-shadow: 2px 2px 5px  rgba(106, 111, 129, 0.5);
   background-color: white;
 }
 
@@ -70,7 +70,7 @@ main {
 
 .avatar img {
   border-radius: 50%;
-  border: solid white 5px;
+  border: solid white 6px;
 }
 
 .user {

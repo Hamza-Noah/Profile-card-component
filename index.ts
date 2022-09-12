@@ -1,1 +1,0 @@
-let element = document.querySelector("main") as HTMLInputElement
