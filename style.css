@@ -18,6 +18,7 @@ body {
   background-color: var(--Dark-cyan);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.125rem;
+  overflow: hidden;
 }
 
 body::before,
@@ -27,6 +28,7 @@ body::after {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: none;
+  z-index: -1;
 }
 
 body::before {
@@ -42,18 +44,20 @@ body::before {
 body::after {
   bottom: 0;
   right: 0;
+  transform: translate(8%, 10%);
   background-image: url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-position: none;
-  height: 450px;
-  width: 450px;
+  background-size: cover;
+  height: 500px;
+  width: 60vw;
 }
 
 main {
   position: relative;
   width: 375px;
   border-radius: 20px;
-  box-shadow: 2px 2px 5px  rgba(106, 111, 129, 0.5);
+  box-shadow: 2px 2px 5px rgba(106, 111, 129, 0.5);
   background-color: white;
 }
 
@@ -104,7 +108,6 @@ h1 span {
   text-align: center;
 }
 
-
 .stat span {
   font-weight: bolder;
   font-size: 1.1rem;
@@ -113,7 +116,5 @@ h1 span {
 .stat p {
   margin-top: 10px;
   color: gray;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-
-
