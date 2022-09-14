@@ -37,8 +37,8 @@ body::before {
   transform: translate(-0%, -20%);
   background-image: url("images/bg-pattern-top.svg");
   background-position: none;
-  height: 500px;
-  width: 500px;
+  height: 750px;
+  width: 750px;
 }
 
 body::after {
