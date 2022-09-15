@@ -10,7 +10,6 @@
 }
 
 body {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,39 +17,15 @@ body {
   background-color: var(--Dark-cyan);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.125rem;
-  overflow: hidden;
-}
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
 
-body::before,
-body::after {
-  content: "";
-  position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: none;
-  z-index: -1;
-}
 
-body::before {
-  top: 0;
-  left: 0;
-  transform: translate(-0%, -20%);
-  background-image: url("images/bg-pattern-top.svg");
-  background-position: none;
-  height: 750px;
-  width: 750px;
-}
 
-body::after {
-  bottom: 0;
-  right: 0;
-  transform: translate(8%, 10%);
-  background-image: url("images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat;
-  background-position: none;
-  background-size: cover;
-  height: 500px;
-  width: 60vw;
+  /* background-image: url(images/bg-pattern-top.svg), */
+  /* url(images/bg-pattern-bottom.svg); */
 }
 
 main {
