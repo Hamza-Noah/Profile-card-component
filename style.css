@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 50px 20px;
   background-color: var(--Dark-cyan);
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.125rem;
@@ -21,11 +22,6 @@ body {
     url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: right 48vw bottom 40vh, left 45vw top 44vh;
-
-
-
-  /* background-image: url(images/bg-pattern-top.svg), */
-  /* url(images/bg-pattern-bottom.svg); */
 }
 
 main {
@@ -83,13 +79,13 @@ h1 span {
   text-align: center;
 }
 
-.stat span {
+.stat p:first-child {
   font-weight: bolder;
   font-size: 1.1rem;
+  margin-bottom: 10px;
 }
 
-.stat p {
-  margin-top: 10px;
+.stat p:last-child {
   color: gray;
   font-size: 0.8rem;
 }
